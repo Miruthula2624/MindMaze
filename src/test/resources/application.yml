@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: mindmaze-backend-test
+  mvc:
+    problemdetails:
+      enabled: true
+
+server:
+  port: 0
+
+logging:
+  level:
+    root: WARN
+    com.mindmaze: INFO
